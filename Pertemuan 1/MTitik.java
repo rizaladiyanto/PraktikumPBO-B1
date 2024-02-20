@@ -9,9 +9,7 @@ public class MTitik {
        t2.setAbsis(3.0);
        t2.setOrdinat(4.0);
 
-       Titik t3 = new Titik();
-       t3.setAbsis(5.0);
-       t3.setOrdinat(6.0);
+       Titik t3 = new Titik(5,6);
        
        System.out.println("Jumlah objek titik : " + t1.getCounter());
        System.out.println("t1 (" + t1.getAbsis() + ", " + t1.getOrdinat() + ") ");
